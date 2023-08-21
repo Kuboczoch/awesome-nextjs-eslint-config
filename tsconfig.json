@@ -8,16 +8,14 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    //  ---
-    "strict": false,
+    "strict": true,
     "strictNullChecks": true,
     "strictBindCallApply": true,
-    "strictFunctionTypes": false,
+    "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noUncheckedIndexedAccess": true,
-    //  ---
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -45,11 +43,9 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "src/custom.d.ts"
+    "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "@types/generated"
+    "node_modules"
   ]
 }
