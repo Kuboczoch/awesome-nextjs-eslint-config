@@ -14,5 +14,5 @@ yarn add --dev @next/eslint-plugin-next @types/node @types/react @typescript-esl
 
 #### Command using npm
 ```
-npm install --dev @next/eslint-plugin-next @types/node @types/react @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-import eslint-plugin-prettier prettier eslint-plugin-react-hooks
+npm install --save-dev @next/eslint-plugin-next @types/node @types/react @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-import eslint-plugin-prettier prettier eslint-plugin-react-hooks
 ```
